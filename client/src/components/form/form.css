@@ -1,0 +1,33 @@
+.form-container {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 1rem;
+    padding: 1rem;
+    width: 13rem;
+    height: 21rem;
+  }
+  
+input {
+    padding: 5px;
+    border: 1px solid #134569;
+    border-radius: 4px;
+    margin-right: 10px;
+    font-size: medium;
+  }
+  
+button {
+    background-color: #134569;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 5px 10px;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+button:hover {
+  background-color: black;
+  color: aliceblue;
+}

@@ -1,0 +1,30 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "nodemon ./src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luciamicheloud/RickAndMortyHenry.git"
+  },
+  "keywords": [
+    "123pedo"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luciamicheloud/RickAndMortyHenry/issues"
+  },
+  "homepage": "https://github.com/luciamicheloud/RickAndMortyHenry#readme",
+  "dependencies": {
+    "nodemon": "^3.0.1"
+  }
+
+}

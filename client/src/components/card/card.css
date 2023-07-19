@@ -1,0 +1,54 @@
+.card-container{
+  text-align: center;
+  width: 13rem;
+  height: 21rem;
+  overflow: visible;
+  box-shadow: 0, 0, 15px, -5px;
+  background-color: black;
+  transition: 0.3s;
+  animation: ease-in;
+  margin-right: 1rem;
+  border-radius: 1rem;
+  white-space: 1rem;
+}
+
+.card-container:hover{
+  background-color: rgba(0, 0, 0, 0.811);
+  transform: scale(1.06);
+}
+
+.details{
+
+  color:rgba(240, 248, 255, 0.381);
+  font-size: 0.5rem;
+  overflow: hidden;
+}
+
+
+.title{
+  background-color: aliceblue;
+  color: black;
+  font-size: 1.3rem;
+}
+.title:hover{
+  background-color: rgb(56, 162, 255);
+  color: rgb(13, 13, 13);
+  font-size: 1.4rem;
+}
+
+.cardImage {
+  overflow: hidden;
+  height: 10rem;
+  border-radius: 5%;
+}
+
+.cardImage:hover{
+  border-radius: 5%; 
+  overflow: visible;
+  height: 10.5rem;
+}
+
+.card-button:hover{
+  color: aliceblue;
+  background-color: rgb(255, 0, 0);
+}
